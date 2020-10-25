@@ -1,0 +1,21 @@
+<aside id="sidebar">
+
+    <header>
+        <h1>Popular on Channel</h1>
+    </header>
+
+    {% for movie in selected_movies[:5] %}
+        <div id="article-container">
+            <a href="{{title_urls[movie.title]}}" >
+                <img src = 'static/icon.jpg'/>
+            </a>
+            <div id="article-description">
+                <a href = "{{ title_urls[movie.title] }}">{{ movie.title }}, ({{ movie.date }}).</a>
+            </div>
+        </div>
+
+    {% endfor %}
+    <div>
+        COMPSCI235 A2 by YCAO350
+    </div>
+</aside>

@@ -1,0 +1,26 @@
+<header id="header">
+  The Movie Channel.123
+</header>
+<head>
+    <style>
+        h2 {
+  background-color: lightcoral;
+  color: whitesmoke;
+}
+    </style>
+</head>
+<br>
+<body>
+<h2 style = "font-style: italic",>
+    --Browse classic movies.
+    More rich film topics, film classification, provide the most comprehensive film information, and loyal fans of the film reviews.--
+</h2>
+<br>
+<hr>
+<form class="navbar-form navbar-left" action="{{ url_for('news_bp.search') }}" method="GET">
+    <div class="form-group">
+      <input style="color:#000000" type="text" class="form-control" placeholder="Search movies by actors, director, year and more..." name="keyword">
+    </div>
+    <button class="btn-general" type="submit">SEARCH</button>
+</form>
+</body>

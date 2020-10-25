@@ -1,0 +1,4 @@
+id,author-id,article-id,comment-text,timestamp
+1,2,1,"Woo, This file is good!",2020-01-29 19:42:31
+2,1,1,"Yes, I like it.",2020-01-29 20:05:59
+3,3,1,"Haha, agree!",2020-02-08 09:07:23
